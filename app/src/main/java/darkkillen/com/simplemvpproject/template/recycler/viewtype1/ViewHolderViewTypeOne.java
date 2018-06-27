@@ -8,8 +8,8 @@ public class ViewHolderViewTypeOne extends RecyclerView.ViewHolder {
 
     private Context mContext;
 
-        public ViewHolderViewTypeOne(View itemView, Context mContext) {
-            super(itemView);
-            this.mContext = mContext;
-        }
+    public ViewHolderViewTypeOne(View itemView, Context mContext) {
+        super(itemView);
+        this.mContext = mContext;
     }
+}

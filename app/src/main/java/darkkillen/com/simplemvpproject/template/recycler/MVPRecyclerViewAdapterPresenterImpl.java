@@ -22,6 +22,7 @@ public class MVPRecyclerViewAdapterPresenterImpl implements IMVPRecyclerViewAdap
 
     @Override
     public int getCount() {
+        if (data == null) return 0;
         return 3;
     }
 
